@@ -21,9 +21,9 @@ total_cost = print(bread + peanut_butter + jelly)
 # 7/100 = 0.07 
 # a modulus may be needed to get 0.07 to a whole int?
 
-savings = 10,000 ^0.07  #initial amount variable compounded by 0.07
+savings = 10,000 ** 0.07  #initial amount variable compounded by 0.07
 days_per_year = 365    #amount for end of the year 
-total_savings = print(savings / days_per_year)
+total_savings = print(savings // days_per_year)
 
 
 # OFFICE HOURS NEEDED!!!  
@@ -32,7 +32,7 @@ total_savings = print(savings / days_per_year)
 
 savings = 10,000
 interest = 7
-total_savings = 10,000 + (10,000 * interest // 365)
+total_savings = 10,000 + (10,000 * interest / 365)
 print(total_savings)
 
 

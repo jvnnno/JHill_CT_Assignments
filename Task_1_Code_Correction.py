@@ -1,11 +1,11 @@
-# Task 1: Below is a piece of Python 
-# code with incorrect indentation. Your task is to correct it.
+# # Task 1: Below is a piece of Python 
+# # code with incorrect indentation. Your task is to correct it.
 
-weather = "Sunny"
-if weather == "sunny":
-    print("Wear Sunglasses!")
-else:
-    print("Take an Umbrella!")
+# weather = "Sunny"
+# if weather == "sunny":
+#     print("Wear Sunglasses!")
+# else:
+#     print("Take an Umbrella!")
 
 
     
@@ -14,12 +14,12 @@ else:
 #  "That's great to hear!", and if they say "sad", 
 # print "I hope your day gets better!". 
 
-user_mood = input("Mood for today:")
-if user_mood == ("Happy!"):
-    print("Happy!")
-if user_mood == ("Sad."):
-    print("Sad!")
 
-    # I am not entirely confident about my answer here.
-    # would love to discuss during an office hours. My code doesn't 
-    # produce an answer, just the question. 
+user_mood = str(input("How are you feeling today?"))
+
+if user_mood == "Happy":
+    print("That's great to hear!")
+elif user_mood == "Sad":
+        print("I hope your day gets better!")
+else: 
+        print("I hope you have a great day either way!")             
